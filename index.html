@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./Estilos/stylelogin.css">
+    <title>Puma</title>
+</head>
+<body>
+    <form class="registro" onsubmit="return validarFormulario()">
+        <label class="Titulo">Pumas Dc</label>
+        <input class="pr" type="text" name="nombres" id="nombres" required placeholder="Ingrese su usuario" pattern="[0,9]{6,11}">  
+        <input class="pr" type="password" name="contraseñas" id="contraseñas" required placeholder="ingrese su contraseña" pattern="^(?=.*\d)(?=.*[\u0021-\u002b\u003c-\u0040])(?=.*[A-Z])(?=.*[a-z])\S{8,16}$">
+        <a href="./menu.html" class="boton" >Click aquí</a>
+        <div class="recuperar">
+            <a href ="./olvidosucontraseña.html" class="olvido">Olvido su contraseña?</a>
+        </div>
+    </form>
+    <script src="./validacion.js"></script>
+</body>
+</html>

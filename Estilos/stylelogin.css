@@ -1,0 +1,74 @@
+
+
+.registro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .pr {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    width: 250  px;
+    font-size: 29px;
+    border-bottom: solid 3px rgb(61, 38, 145);
+  }
+  
+  .pr:focus {
+    outline: none;
+    border-color: #008080;
+  }
+  
+  .Titulo{
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+
+  .registro{
+    width: 400px;
+    background: #ffffff;
+    border-top: solid 100px rgb(44, 44, 48);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 12px;
+    font-family: 'calibri';
+    color:rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px #252525;
+    height: 300px;
+    font-size: 100px;
+  }
+
+  .boton{
+    text-decoration: none;
+    display:inline-block;
+    width:200px;
+    padding:2px;
+    border: 3px solid black;
+    border-radius:50px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    transition: all 0.9s;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .boton:hover{
+ 
+    background:black;
+    color:white;
+
+  }
+
+  body{
+    background-image: url(./pexels-pixabay-276374.jpg);
+  }
+
+  .recuperar{
+    font-size: 30px;
+  }
